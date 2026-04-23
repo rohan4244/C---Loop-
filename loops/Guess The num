@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main ()  {
+  int num = 0;
+  printf("Enter a num to guees the odd or even num: ");
+  while ( num != 11) {
+    scanf("%d", &num);
+  }
+    printf("Congratulations! you guees the correct num");
+}
