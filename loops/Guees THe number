@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+    int secret = 7, guess;
+
+    for(int i = 1; i <= 3; i++) {
+        printf("Guess: ");
+        scanf("%d", &guess);
+
+        if(guess == secret) {
+            printf("Correct!\n");
+            break;
+        } else {
+            printf("Wrong\n");
+        }
+    }
+    return 0;
+}
